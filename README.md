@@ -18,7 +18,7 @@ Installation
 
 * python2
 * python-pip
-* python-gobject
+* python-gobject (Debian-based only)
 * libavahi-compat-libdnssd1
 * cherrypy (python package)
 * pybonjour (python package)
@@ -27,7 +27,7 @@ Installation
 
 Simply run linconnect_server.py to start the server, then start the Android application. The Android application will detect the server and display it in the server list. Selecting it will send a test notification to the server.
 
-**Simple Setup (tested on Ubuntu 13.10)**
+**Simple Setup (tested on Ubuntu 13.10 and Fedora 20)**
 
 Enter the following command into a console to install the server, set it to autostart, and run LinConnect. The server will be automatically updated daily.
 
