@@ -1,9 +1,9 @@
 linconnect-server
 =================
 
-Mirror Android notifications on a Linux desktop.
+Mirror Android notifications on a Fedora Linux desktop.
 
-LinConnect Client: https://github.com/hauckwill/linconnect-client/
+LinConnect Client: https://github.com/majorlinux/linconnect-client/
 
 Introduction
 ------------
@@ -18,7 +18,6 @@ Installation
 
 * python2
 * python-pip
-* python-gobject (Debian-based only)
 * libavahi-compat-libdnssd1
 * cherrypy (python package)
 * pybonjour (python package)
@@ -45,3 +44,9 @@ Client Download
 A binary of the client may be downloaded from the Google Play Store.
 
 https://play.google.com/store/apps/details?id=com.willhauck.linconnectclient
+
+Original
+--------
+Original shout outs go to hauckwill who originally wrote this code for Debian-based Linux distros!
+
+https://github.com/hauckwill
